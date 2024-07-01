@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://cqnu44g4c21tl"]
+
+[ext_resource type="Script" path="res://Resources/Classes/Item.gd" id="1_v3vnq"]
+
+[resource]
+script = ExtResource("1_v3vnq")
+id = "BasicCable"
+name = "Basic Cable"
+amount_owned = 0
