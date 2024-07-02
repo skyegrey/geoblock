@@ -1,0 +1,43 @@
+{
+	"CopperFurnace": {
+		"Name": "Copper Furnace",
+		"BaseCost": 20,
+		"BaseProcessTime": 5,
+		"Input": [
+			{
+				"ItemID": "CopperOre",
+				"Amount": 2
+			}
+		],
+		"Output": ["CopperIngot"]
+	},
+	"TinFurnace": {
+		"Name": "Tin Furnace",
+		"BaseCost": 1024912,
+		"BaseProcessTime": 7,
+		"Input": [
+			{
+				"ItemID": "TinOre",
+				"Amount": 2
+			}
+		],
+		"Output": ["TinIngot"]
+	},
+	
+	"BronzeFurnace": {
+		"Name": "Bronze Furnace",
+		"BaseCost": 1234,
+		"BaseProcessTime": 10,
+		"Input": [
+			{
+				"ItemID": "CopperOre",
+				"Amount": 3
+			},
+			{
+				"ItemID": "TinOre",
+				"Amount": 1
+			}
+		],
+		"Output": ["BronzeIngot"]
+	}
+}

@@ -3,8 +3,21 @@
 - [x] Create inventory 
 - [x] Create ore collection
 - [x] Create smelting
-- [ ] Create manufacturing
-- [ ] Create second ore collection
-- [ ] Create alloying
-- [ ] 
-### UI
+- [x] Create manufacturing
+- [x] Create second ore collection
+- [x] Create alloying
+- [ ] Machine toggle 
+- [x] Loading bars
+	- [x] Create a UI object for buildings
+- [ ] Implement research
+	- [ ] Science building
+	- [ ] Science research selection
+	- [ ] Build a tech tree
+- [ ] Implement Upgrades
+- [ ] Implement Money
+	- [ ] Items are sellable
+	- [ ] Display money
+- [ ] Can buy more buildings
+- [ ] UI 
+	- [ ] Pages for difference building categories
+		- [ ] Toggle visibility for active category

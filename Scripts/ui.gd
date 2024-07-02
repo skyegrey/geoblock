@@ -1,25 +1,22 @@
 class_name UI extends Control
 
+# Prefab references
+var building_display_scene = preload("res://Scenes/building_display.tscn")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
 
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
 
-func update_mines(mines):
-	var display_text = "[font_size=30]"
+func create_mine_displays(mines):
+	var mines_display = %MinesDisplay
 	for mine: Mine in mines:
-		var output_string = "{mine_name}: {progress}% \n"
-		display_text += output_string.format({
-			"mine_name": mine.name,
-			"progress": "%0.1f" % (mine.progress_percent * 100)
-		})
-	
-	$MineDisplay.text = display_text
+		var building_display = building_display_scene.instantiate()
+		building_display.building = mine
+		mines_display.add_building(building_display)
 
 func update_furnaces(furnaces):
 	var display_text = "[font_size=30]"
@@ -32,13 +29,13 @@ func update_furnaces(furnaces):
 	
 	$FurnaceDisplay.text = display_text
 
-func update_manufactories(manufactories):
+func update_factories(factories):
 	var display_text = "[font_size=30]"
-	for manufactory: Manufactory in manufactories:
-		var output_string = "{manufactory_name}: {progress}% \n"
+	for factory: Factory in factories:
+		var output_string = "{factory_name}: {progress}% \n"
 		display_text += output_string.format({
-			"manufactory_name": manufactory.name,
-			"progress": "%0.1f" % (manufactory.progress_percent * 100)
+			"factory_name": factory.name,
+			"progress": "%0.1f" % (factory.progress_percent * 100)
 		})
 	
 	$ManufactoryDisplay.text = display_text

@@ -1,2 +1,2 @@
-class_name Furnace extends IngredientRequiredBuilding
+class_name Furnace extends InputRequiredBuilding
 

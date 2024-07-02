@@ -1,0 +1,14 @@
+{
+	"BasicCableFactory": {
+		"Name": "Basic Cable Factory",
+		"BaseCost": 20,
+		"BaseProcessTime": 30,
+		"Input": [
+			{
+				"ItemID": "CopperIngot",
+				"Amount": 1
+			}
+		],
+		"Output": ["BasicCable"]
+	}
+}

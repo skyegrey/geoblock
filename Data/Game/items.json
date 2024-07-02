@@ -1,0 +1,39 @@
+{
+	"CopperOre" : {
+		"Name": "Copper Ore"
+	},
+	"TinOre": {
+		"Name": "Tin Ore"
+	},
+	"IronOre": {
+		"Name": "Iron Ore"	
+	},
+	
+	
+	"CopperIngot" : {
+		"Name": "Copper Ingot"
+	},
+	"TinIngot": {
+		"Name": "Tin Ingot"
+	},
+	"IronIngot": {
+		"Name": "Iron Ingot"
+	},
+	
+	
+	"BronzeIngot": {
+		"Name": "Bronze Ingot"
+	},
+	
+	
+	"BasicCable": {
+		"Name": "Basic Cable"
+	},
+	"BasicMachineFrame": {
+		"Name": "Basic Machine Frame"
+	},
+	
+	"BasicSciencePack": {
+		"Name": "Basic Science Pack"
+	}
+}

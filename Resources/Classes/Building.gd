@@ -5,7 +5,7 @@ class_name Building extends Resource
 @export var amount_owned: int
 @export var base_process_time: float
 var remaining_process_time: float
-@export var output: Array[Item]
+@export var output: Array[String]
 var progress_percent: float
 var is_active: bool = false
 
@@ -23,4 +23,4 @@ func process(delta, inventory):
 	if remaining_process_time <= 0:
 		remaining_process_time = base_process_time
 		return output
-
+	

@@ -1,0 +1,20 @@
+{
+	"CopperPickaxe": {
+		"Name": "Copper Pickaxe",
+		"Description": "Use Copper Pickaxes for mining. Increase mining speed by 10%",
+		"RequiredUpgrades": [],
+		"Cost": [
+			{
+				"ItemID": "CopperIngot",
+				"Amount": 10
+			}
+		],
+		"Effects": [
+			{
+				"AffectedStat": "MiningSpeed",
+				"EffectType": "%",
+				"EffectAmount": 10
+			}
+		]
+	}
+}

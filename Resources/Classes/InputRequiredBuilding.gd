@@ -1,11 +1,11 @@
-class_name IngredientRequiredBuilding extends Building
+class_name InputRequiredBuilding extends Building
 
-@export var ingredients: Array[Ingredient]
+@export var input: Array[ItemInput]
 
 func process(delta, inventory):
 	if not is_active:
-		if inventory.check_can_consume(ingredients):
-				inventory.consume(ingredients)
+		if inventory.check_can_consume(input):
+				inventory.consume(input)
 				activate()
 
 	# If active, process

@@ -1,9 +1,0 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://cbei51307jivf"]
-
-[ext_resource type="Script" path="res://Resources/Classes/Item.gd" id="1_nr86p"]
-
-[resource]
-script = ExtResource("1_nr86p")
-id = "CopperBar"
-name = "Copper Bar"
-amount_owned = 0

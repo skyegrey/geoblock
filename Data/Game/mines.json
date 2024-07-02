@@ -1,20 +1,17 @@
 {
 	"CopperMine": {
-		"ID": "CopperMine",
 		"Name": "Copper Mine",
 		"BaseCost": 10,
-		"BaseProcessTime": 10,
+		"BaseProcessTime": 1,
 		"Output": ["CopperOre"]
 	},
 	"TinMine": {
-		"ID": "TinMine",
 		"Name": "Tin Mine",
 		"BaseCost": 20,
 		"BaseProcessTime": 15,
 		"Output": ["TinOre"]
 	},
 	"IronMine": {
-		"ID": "IronMine",
 		"Name": "Iron Mine",
 		"BaseCost": 40,
 		"BaseProcessTime": 25,

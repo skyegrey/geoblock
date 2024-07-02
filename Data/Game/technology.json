@@ -1,0 +1,36 @@
+{
+	"CoalMining": {
+		"Name": "Coal Mining",
+		"Description": "Unlocks Coal Mining",
+		"RequiredTech": [],
+		"Cost": [
+			{
+				"ItemID": "BasicSciencePack",
+				"Amount": 10
+			}
+		],
+		"Unlocks": [
+			{
+				"UnlockType": "Building",
+				"UnlockBuilding": "CoalMine"
+			}
+		]
+	},
+	"SteelSmelting": {
+		"Name": "Steel Smelting",
+		"Description": "Unlocks Steel Smelting",
+		"RequiredTech": ["CoalMining"],
+		"Cost": [
+			{
+				"ItemID": "BasicSciencePack",
+				"Amount": 40
+			}
+		],
+		"Unlocks": [
+			{
+				"UnlockType": "Building",
+				"UnlockBuilding": "SteelFurnace"
+			}
+		]
+	}
+}
